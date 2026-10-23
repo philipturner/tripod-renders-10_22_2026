@@ -45,3 +45,9 @@ Meaning the tool structure prior to GFN2 minimization is just the structure alre
   <img src="./Images1/09_S36_rows4_195Si_pinned_rot45_under_top.png" width="30%">
 &nbsp;
 </p>
+
+## GFN2 Minimized, Slab + Tool Together
+
+This was notoriously hard to energy minimize. Un-buckled dimers have 0.00 eV bandgap in GFN2, while buckled ones have 0.54 eV bandgap. These slabs are some of the hardest ones to converge with the SCF, requiring more iterations and higher electronic temperature even when they do work.
+
+TODO: If the structures converge in the solver and DFT, upload renders and DFT results, share in preferred manner.
