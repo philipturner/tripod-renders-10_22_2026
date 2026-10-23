@@ -50,4 +50,4 @@ Meaning the tool structure prior to GFN2 minimization is just the structure alre
 
 This was notoriously hard to energy minimize. Un-buckled dimers have 0.00 eV bandgap in GFN2, while buckled ones have 0.54 eV bandgap. These slabs are some of the hardest ones to converge with the SCF, requiring more iterations and higher electronic temperature even when they do work.
 
-TODO: If the structures converge in the solver and DFT, upload renders and DFT results, share in preferred manner.
+Conclusion: all attempts to fix charge sloshing in the xTB Fortran code failed. None of the structures above can be energy minimized with GFN2.
